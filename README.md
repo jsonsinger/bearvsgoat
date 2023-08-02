@@ -1,1 +1,1 @@
-# bearvsgoat
+# Bear vs Goat
