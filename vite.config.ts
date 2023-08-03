@@ -9,7 +9,7 @@ import Components from 'unplugin-vue-components/vite'
 export default defineConfig({
   plugins: [
     vue(),
-    Unfonts({
+    /*Unfonts({
       google: {
         families:[{
           name: "Solway"
@@ -17,7 +17,7 @@ export default defineConfig({
           name: "Gaegu"
         }]
       }
-    }),
+    }),*/
     Components(),
   ],
   resolve: {
