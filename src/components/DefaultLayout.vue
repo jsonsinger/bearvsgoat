@@ -15,7 +15,7 @@ const localeDateString = new Date().toLocaleDateString('en-ZA', {
       <div class="">
         <h1 v-if="today.getHours() < 12">Good Morning</h1>
         <h1 v-else-if="today.getHours() >= 12 && today.getHours() < 18">Good Afternoon</h1>
-        <h1 v-else-if="today.getHours() > 18 && today.getHours() < 21">Good Evening</h1>
+        <h1 v-else-if="today.getHours() >= 18 && today.getHours() < 21">Good Evening</h1>
         <h1 v-else>Good Night</h1>
         <h3 class="-mt-4 mb-4">{{ localeDateString }}</h3>
       </div>
