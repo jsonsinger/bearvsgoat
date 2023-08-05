@@ -3,7 +3,7 @@
     <h1 class="">Bear vs Goat</h1>
     <h3 class="">A security first, goal-oriented action planner.</h3>
   </div>-->
-  <SidebarLayout/>
+  <DefaultLayout/>
   <!-- <RouterView /> -->
 </template>
 

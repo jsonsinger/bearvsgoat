@@ -15,10 +15,7 @@ function sidebarHandler() {
 </script>
 
 <template>
-  <div class="flex flex-no-wrap bg-gray-100 h-screen">
-    <!-- Sidebar starts -->
-    <!-- Remove class [ hidden ] and replace [ sm:flex ] with [ flex ] -->
-    <div class="w-80 absolute sm:relative bg-gray-100 shadow md:h-full flex-col justify-between hidden sm:flex">
+    <div class="w-80 absolute sm:relative bg-ghostwhite shadow md:h-full flex-col justify-between hidden sm:flex">
       <div class="px-8">
         <div class="h-16 w-full flex items-center mt-4 place-content-center">
           <h1>BVG</h1>
@@ -72,48 +69,8 @@ function sidebarHandler() {
       </div>
 
     </div>
-
-    <div class="container mx-auto py-10 h-64 md:w-4/5 w-11/12 px-6">
-      <div class="">
-        <h1>Hello</h1>
-        <h3 class="-mt-4 mb-4">Monday, 01 January</h3>
-      </div>
-      <div class="w-full h-16 rounded border-dashed border-2 border-slate-300">
-        <div class="wrapper">
-        </div>
-      </div>
-      <div class=" mt-4 w-full h-80 rounded border-dashed border-2 border-slate-300">
-        <div class="wrapper">
-
-        </div>
-      </div>
-    </div>
-  </div>
 </template>
 
 <style scoped>
-h1 {
-  font-family: Solway, serif;
-  font-weight: 500;
-  font-size: 2.6rem;
-  position: relative;
-  top: -10px;
-  text-align: center;
-  color: #474747;
-}
 
-h3 {
-  font-family: Geagu, cursive;
-  font-size: 1.2rem;
-  text-align: center;
-  color: #8c8fa6;
-}
-
-.wrapper {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
-  max-height: 90%;
-}
 </style>

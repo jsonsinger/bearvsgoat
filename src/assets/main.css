@@ -16,10 +16,32 @@
     url('fonts/gaegu/gaegu-regular-webfont.woff') format('woff');
 }
 
+.bg-ghostwhite
+{
+    background-color: ghostwhite;
+}
+
 body {
     min-height: 100vh;
     font-family: Geagu, serif;
     font-weight: 700;
+}
+
+h1 {
+    font-family: Solway, serif;
+    font-weight: 500;
+    font-size: 2.6rem;
+    position: relative;
+    top: -10px;
+    text-align: center;
+    color: #474747;
+}
+
+h3 {
+    font-family: Geagu, cursive;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #8c8fa6;
 }
 
 #app{
